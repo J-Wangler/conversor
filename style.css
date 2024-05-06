@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #eee;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  #converter {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  
+  input[type="number"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #555;
+    border: none;
+    color: #eee;
+    cursor: pointer;
+    margin: 0 10px;
+  }
+  
+  button:hover {
+    background-color: #777;
+  }
+  
+  #resultado {
+    margin-top: 20px;
+  }
+  
